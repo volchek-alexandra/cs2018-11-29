@@ -44,7 +44,8 @@ class TaskC3 {
         final double k=3.86;
         final double j=9.81;
         double p = weight * k / j;
-        return Math.round(p*100)/100.00;
+        double l = (int)((p+0.005)*100);
+        return l/100;
     }
 
 
