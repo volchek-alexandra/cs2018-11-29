@@ -22,12 +22,15 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
-        String a = "blablablalblblblbllblblblbl";
-        String b = "gagagagablblblbllblblbllblbbllblblbllblblblb";
-        String c = "tatatatatablbllblblbllblbllblbllblblbllblbllblb";
-        String d = "lalalalalblblblbllblbllbllblblblblbllbllbllblbllblbllbllblbl";
+        String a = "Не позволяй душе лениться!";
+        String b = "Чтоб в ступе воду не толочь,";
+        String c = "Душа обязана трудиться";
+        String d = "И день и ночь, и день и ночь!";
         System.out.println("Мое любимое стихотворение:");
         System.out.println(a + "\n" + b + "\n" + c + "\n" + d);
     }
+
+
+
 
 }
