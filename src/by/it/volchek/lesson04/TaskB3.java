@@ -25,7 +25,20 @@ package by.it.volchek.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int sum = sc.nextInt();
+        int l = 0;
+        for (int i = 1; l <= sum; i++) {
+            l += i;
+            if (l <= sum) System.out.print(l + ",");
+        }
+
+
+    }
+
 
 }

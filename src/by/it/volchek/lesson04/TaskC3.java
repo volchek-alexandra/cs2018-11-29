@@ -24,5 +24,19 @@ package by.it.volchek.lesson04;
 */
 
 public class TaskC3 {
-
+    public static void main(String[] args) {
+        int i = 2, n = 1;
+        while (i <= 10) {
+            while (n <= 9) {
+                n++;
+                int c=i*n;
+                System.out.print(c);
+            }
+            i++;
+            n = 1;
+            System.out.println();
+        }
+    }
 }
+
+
