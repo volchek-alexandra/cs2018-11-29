@@ -25,18 +25,38 @@ package by.it.volchek.lesson04;
 
 public class TaskC3 {
     public static void main(String[] args) {
-        int i = 2, n = 1;
-        while (i <= 10) {
-            while (n <= 9) {
-                n++;
-                int c=i*n;
-                System.out.print(c);
+        for (int i = 2; i <=10 ; i++) {
+            for (int j = 2; j <=10 ; j++) {
+                System.out.println(
+                        word(i)+"умножить"+word(j)+"равно"+word(i*j)
+                );
+
             }
-            i++;
-            n = 1;
-            System.out.println();
+
         }
+
+        }
+        static String word(int i) {
+            switch(i){
+                case 1: return "один";
+                case 19: return "девятнадцать";
+
+            }
+            int d=i/10;
+            int e=i%10;
+            String end=e==0?"":" "+word(e); //тернарный//
+        switch (d){
+            case 1: return "двадцать"+end;
+            case 10: return "сто"+end;
+        }
+        return "very much";
+
+
+        }
+
     }
-}
+
+
+
 
 
