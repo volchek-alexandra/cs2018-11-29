@@ -10,6 +10,35 @@ package by.it.volchek.lesson05;
 */
 
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.util.ArrayList;
+
 public class TaskB1 {
+    public static void main(String[] args) throws IOException {
+        ArrayList<String> str  = new ArrayList<>();
+        Reader r = new InputStreamReader(System.in);
+        BufferedReader reader = new BufferedReader(r);
+        String s1 = "Так думал молодой повеса,";
+        String s2 ="Летя в пыли на почтовых";
+        String s3= "Всевышней волею Зевеса";
+        String s4 = "Наследник всех своих родных.";
+        String s5 = "Друзья Людмилы и Руслана!";
+        str.add (s1);
+        str.add (s2);
+        str.add (s3);
+        str.add (s4);
+        str.add (s5);
+        int n = str.size();
+        System.out.println(n);
+        for (int i = str.size(); i > 0 ; i--) {
+            int j = str.size() - i;
+            System.out.println(str.get(j));
+        }
+
+
+    }
 
 }

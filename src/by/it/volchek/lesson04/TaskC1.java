@@ -47,62 +47,62 @@ public class TaskC1 {
         if (zp <= 300 || zp >= 3000)
             System.out.println("Мы вам перезвоним!");
         else
-            for (month = 0; month < 15; month++) {
+            for (month = 1; month <=15; month++) {
                 switch (month) {
-                    case 0:
-                        System.out.println("За месяц 0 начислено $0.0");
                     case 1:
+                        System.out.println("За месяц 0 начислено $0.0");
+                    case 2:
                         if (1.5 * zp != 666)
                             System.out.println("За январь начислено $" + 1.5 * zp);
                         break;
-                    case 2:
+                    case 3:
                         if (1.5 * zp != 666)
                             System.out.println("За февраль начислено $" + 1.5 * zp);
                         break;
-                    case 3:
+                    case 4:
                         if (1.5 * zp != 666)
                             System.out.println("За март начислено $" + 1.5 * zp);
                         break;
-                    case 4:
+                    case 5:
                         if (1.5 * zp != 666)
                             System.out.println("За апрель начислено $" + 1.5 * zp);
                         break;
-                    case 5:
+                    case 6:
                         if (1.5 * zp != 666)
                             System.out.println("За май начислено $" + 1.5 * zp);
                         break;
-                    case 6:
+                    case 7:
                         if (zp != 666)
                             System.out.println("За июнь начислено $" + zp);
                         break;
-                    case 7:
+                    case 8:
                         if (zp != 666)
                             System.out.println("За июль начислено $" + zp);
                         break;
-                    case 8:
+                    case 9:
                         if (zp != 666)
                             System.out.println("За август начислено $" + zp);
                         break;
-                    case 9:
+                    case 10:
                         if (1.5 * zp != 666)
                             System.out.println("За сентябрь начислено $" + 1.5 * zp);
                         break;
-                    case 10:
+                    case 11:
                         if (1.5 * zp != 666)
                             System.out.println("За октябрь начислено $" + 1.5 * zp);
                         break;
-                    case 11:
+                    case 12:
                         if (1.5 * zp != 666)
                             System.out.println("За ноябрь начислено $" + 1.5 * zp);
                         break;
-                    case 12:
+                    case 13:
                         if (1.5 * zp != 666)
                             System.out.println("За декабрь начислено $" + 1.5 * zp);
                         break;
-                    case 13:
+                    case 14:
                         System.out.println("За месяц 13 начислено $0.0");
                         break;
-                    default:
+                    case 15:
                         System.out.println("За месяц 14 начислено $0.0");
 
 

@@ -25,12 +25,14 @@ END
 public class TaskA2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-        ArrayList a = new ArrayList();
+        ArrayList<String> a = new ArrayList<>();
 
         while (true) {
             String word = sc.next();
             if(word.equals ("END"))
                 break;
+            a.add (word);
+
         }
         System.out.println(a);
 
