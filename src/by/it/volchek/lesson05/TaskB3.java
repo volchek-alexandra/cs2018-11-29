@@ -19,6 +19,18 @@ Index of last element=1
 
 */
 
+import java.util.Scanner;
+
 public class TaskB3 {
+    public static void main(String[] args) {
+        int[] m = new int[10];
+        Scanner sc = new Scanner(System.in);
+        for (int i = 0; i < m.length; i++) {
+            m[i]= sc.nextInt();
+
+
+        }
+
+    }
 
 }
