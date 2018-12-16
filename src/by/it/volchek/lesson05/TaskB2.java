@@ -32,12 +32,10 @@ public class TaskB2 {
         }
         int [] a = new int [10];
         int [] b = new int [10];
-        for (int i = 0; i < a.length ; i++) {
-            for (int j = 10; j < m.length ; j++) {
+
+        for (int i = 0, j=10; j <m.length ; i++, j++) {
                 a[i] = m[i];
                 b[i] = m[j];
-            }
-
         }
 
 

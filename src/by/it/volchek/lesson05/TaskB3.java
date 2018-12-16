@@ -27,9 +27,8 @@ public class TaskB3 {
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < m.length; i++) {
             m[i]= sc.nextInt();
-
-
         }
+        
 
     }
 

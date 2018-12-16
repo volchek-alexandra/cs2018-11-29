@@ -25,7 +25,7 @@ public class TaskB1 {
         String s2 ="Летя в пыли на почтовых";
         String s3= "Всевышней волею Зевеса";
         String s4 = "Наследник всех своих родных.";
-        String s5 = "Друзья Людмилы и Руслана!";
+        String s5 = "А. С. Пушкин";
         str.add (s1);
         str.add (s2);
         str.add (s3);
