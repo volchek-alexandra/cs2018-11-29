@@ -24,11 +24,34 @@ import java.util.Scanner;
 public class TaskB3 {
     public static void main(String[] args) {
         int[] m = new int[10];
+        int c, n1 = 1, n2=1;
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < m.length; i++) {
             m[i]= sc.nextInt();
         }
-        
+        int min = m[0];
+        int max=m[0];
+        for (int i =2 ; i <=10; i++) {
+            if (m[i-1]<min) n1=i;
+            if (m[i-1]>max) n2=i;
+
+
+        for (int k = 1; k < m.length; k++) {
+            for (int j = m.length-1; j>=k  ; j--) {
+                if (m[j-1]>m[j]){
+                    c=m[j-1];
+                    m[j-1]=m[j];
+                    m[j]=c;
+                }
+
+
+            }
+
+        }
+
+        }
+        System.out.println("Index of first element=" + n1);
+        System.out.println("Index of last element=" + n2);
 
     }
 
